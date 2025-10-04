@@ -1,0 +1,51 @@
+Rows: 46,775,154, Columns: 14
+
+Columns: ['gene', 'OM-RGC_ID', 'KO', 'OG', 'GC', 'Domain', 'Phylum', 'Class', 'O
+'Genus', 'Species', 'Strain', 'sequence']
+
+Non-missing per column:
+ gene         46775154
+OM-RGC_ID    46775154
+KO           11033119
+OG           28505011
+GC           10197003
+Domain       32351858
+Phylum       24342147
+Class        18242001
+Order        17175342
+Family       15219366
+Genus         8163838
+Species       8462261
+Strain         711474
+sequence     46775154
+dtype: int64
+
+Top Domains:
+ Domain
+Bacteria     27718846
+<NA>         14423296
+Viruses       2461425
+Eukaryota     1222406
+Archaea        949181
+Name: count, dtype: int64[pyarrow]
+
+Top Phyla:
+ Phylum
+<NA>               22433007
+Proteobacteria     15103840
+Bacteroidetes       3618579
+Cyanobacteria       1343924
+Euryarchaeota        539115
+Actinobacteria       525649
+Planctomycetes       467859
+Verrucomicrobia      427045
+Chloroflexi          420029
+Firmicutes           298551
+Name: count, dtype: int64[pyarrow]
+
+Genes with KO annotation: 11,033,119 / 46,775,154 (23.59%)
+
+
+
+---
+Número de KOs únicos: 9267
